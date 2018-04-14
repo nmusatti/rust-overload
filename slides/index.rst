@@ -51,7 +51,7 @@ A simple example
 How we would have done it in C
 ==============================
 
-.. literalinclude:: ../../../cpp/git/rust-overload-cpp/c/first.c
+.. literalinclude:: ../c/first.c
    :language: c
    :lines: 3-22
 
@@ -59,7 +59,7 @@ How we would have done it in C
 The same in Rust
 ================
 
-.. literalinclude:: ../../../rust/git/rust-overload-rust/src/first.rs
+.. literalinclude:: ../rust/src/first.rs
    :language: rust
    :lines: 1-16
 
@@ -75,7 +75,7 @@ What's the problem
 A C++ version
 =============
 
-.. literalinclude:: ../../../cpp/git/rust-overload-cpp/cpp/first.h
+.. literalinclude:: ../cpp/first.h
    :language: c++
    :lines: 4-21
 
@@ -105,7 +105,7 @@ Related constructs
 A C++ template example
 ======================
 
-.. literalinclude:: ../../../cpp/git/rust-overload-cpp/cpp/first.cpp
+.. literalinclude:: ../cpp/first.cpp
    :language: c++
    :lines: 3-15
 
@@ -113,7 +113,7 @@ A C++ template example
 A duck typing example in Python
 ===============================
 
-.. literalinclude:: ../../../python/git/rust-overload-python/rust-overload-python/first.py
+.. literalinclude:: ../python/first.py
    :language: python3
    :lines: 3-14,24-32
 
@@ -121,7 +121,7 @@ A duck typing example in Python
 A default arguments example in Python
 =====================================
 
-.. literalinclude:: ../../../python/git/rust-overload-python/rust-overload-python/second.py
+.. literalinclude:: ../python/second.py
    :language: python3
    :lines: 3-14,24-32
 
@@ -153,7 +153,7 @@ What about Rust?
 Overloading example in Rust
 ===========================
 
-.. literalinclude:: ../../../rust/git/rust-overload-rust/src/second.rs
+.. literalinclude:: ../rust/src/second.rs
    :language: rust
    :lines: 1-23
 
@@ -161,7 +161,7 @@ Overloading example in Rust
 Overloading example in Rust (cont.)
 ===================================
 
-.. literalinclude:: ../../../rust/git/rust-overload-rust/src/second.rs
+.. literalinclude:: ../rust/src/second.rs
    :language: rust
    :lines: 29-35
 
@@ -178,14 +178,14 @@ Suppose we want to implement a `Point` type that may be built:
 A (broken) C++ example
 ======================
 
-.. literalinclude:: ../../../cpp/git/rust-overload-cpp/cpp/point.cpp
+.. literalinclude:: ../cpp/point.cpp
    :language: c++
 
 
 Python's default arguments help
 ===============================
 
-.. literalinclude:: ../../../python/git/rust-overload-python/rust-overload-python/point.py
+.. literalinclude:: ../python/point.py
    :language: python3
    :lines: 4-14,24-28
 
@@ -204,7 +204,7 @@ supported**
 The Point example in Rust
 =========================
 
-.. literalinclude:: ../../../rust/git/rust-overload-rust/src/point1.rs
+.. literalinclude:: ../rust/src/point1.rs
    :language: rust
    :lines: 1-22
 
@@ -212,7 +212,7 @@ The Point example in Rust
 Extending the Point example in Rust
 ===================================
 
-.. literalinclude:: ../../../rust/git/rust-overload-rust/src/point2.rs
+.. literalinclude:: ../rust/src/point2.rs
    :language: rust
    :lines: 1-15
 
@@ -220,7 +220,7 @@ Extending the Point example in Rust
 Extending the Point example in Rust (cont.)
 ===========================================
 
-.. literalinclude:: ../../../rust/git/rust-overload-rust/src/point2.rs
+.. literalinclude:: ../rust/src/point2.rs
    :language: rust
    :lines: 17-33,39-43
 
@@ -228,7 +228,7 @@ Extending the Point example in Rust (cont.)
 The original example in Rust
 ============================
 
-.. literalinclude:: ../../../rust/git/rust-overload-rust/src/third.rs
+.. literalinclude:: ../rust/src/third.rs
    :language: rust
    :lines: 1-20
 
@@ -267,7 +267,7 @@ Wait, there's more to it
 A last example
 ==============
 
-.. literalinclude:: ../../../rust/git/rust-overload-rust/src/sqrt.rs
+.. literalinclude:: ../rust/src/sqrt.rs
    :language: rust
    :lines: 1-17,23-25
 
