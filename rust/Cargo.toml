@@ -1,0 +1,7 @@
+[package]
+name = "rust-overload-rust"
+version = "0.1.0"
+authors = ["Nicola Musatti <nicola.musatti@gmail.com>"]
+
+[dependencies]
+num = "0.1"

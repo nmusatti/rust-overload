@@ -1,0 +1,401 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Nicola Musatti
+# This file is distributed under the same license as the Function
+# Overloading in Rust - Slides package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Function Overloading in Rust - Slides 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-25 20:05+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../index.rst:24
+#, fuzzy
+msgid ""
+"Nicola Musatti - Function Overloading in Rust - Rust Milano Meetup - "
+"Mikamai - 24 January 2018"
+msgstr "Nicola Musatti - Overload di funzioni in Rust - Rust Milano Meetup - Mikamai - 24 "
+"gennaio 2018"
+
+#: ../../index.rst:6
+msgid "Function Overloading in Rust - How I Learned to Live Happily Without it"
+msgstr "Overload di funzioni in Rust - Come ho imparato a vivere felicemente senza"
+
+#: ../../index.rst:10
+msgid "Nicola Musatti"
+msgstr ""
+
+#: ../../index.rst:12
+msgid "nicola.musatti@gmail.com"
+msgstr ""
+
+#: ../../index.rst:14
+msgid "@NMusatti"
+msgstr ""
+
+#: ../../index.rst:16
+msgid "Rust Milano Meetup - 24 January 2018"
+msgstr "Rust Milano Meetup - 24 gennaio 2018"
+
+#: ../../index.rst:20
+msgid "Who I am"
+msgstr "Chi sono"
+
+#: ../../index.rst:26
+msgid ""
+"A long time C++ enthusiast who became disenchanted due to the ever "
+"increasing complexity of the language"
+msgstr "Un appassionato di C++ di vecchia data, disilluso dalla complessità "
+"sempre maggiore del linguaggio"
+
+#: ../../index.rst:28
+msgid "Doing Java and non programming stuff for a living"
+msgstr "Lavoro in Java e su attività non di programmazione "
+
+#: ../../index.rst:29
+msgid "A long time Rust beginner"
+msgstr "Un principiante Rust di lungo corso"
+
+#: ../../index.rst:30
+msgid "I also love Python!"
+msgstr "Adoro anche Python!"
+
+#: ../../index.rst:34
+msgid "What we are doing here"
+msgstr "Cosa ci facciamo qui"
+
+#: ../../index.rst:36
+msgid "What is function overloading and what is good about it"
+msgstr "Cos'è l'overload di funzioni e cosa c'è di buono"
+
+#: ../../index.rst:37
+msgid "What can be done when it is not available"
+msgstr "Cosa si può fare quando non è supportato"
+
+#: ../../index.rst:38
+msgid "Which of Rust's features can be used to address the same problems"
+msgstr "Quali funzionalità di Rust possiamo usare per affrontare gli stessi "
+"problemi"
+
+#: ../../index.rst:39
+msgid "Some further reaching implications"
+msgstr "Alcune implicazioni di portata più ampia"
+
+#: ../../index.rst:43
+msgid "A simple example"
+msgstr "Un esempio semplice"
+
+#: ../../index.rst:45
+msgid "A simple type: Element"
+msgstr "Un tipo semplice: Element"
+
+#: ../../index.rst:46
+msgid "An Element collection type: Collection"
+msgstr "Un tipo collezione di Element: Collection"
+
+#: ../../index.rst:47
+msgid "We want to add single elements to a collection"
+msgstr "Vogliamo aggiungere singoli elementi a una collezione"
+
+#: ../../index.rst:48
+msgid "We want to add all the elements in a collection to another collection"
+msgstr "Vogliamo aggiungere ad una collezione tutti gli elementi di un'altra"
+
+#: ../../index.rst:52
+msgid "How we would have done it in C"
+msgstr "Come l'avremmo scritto in C"
+
+#: ../../index.rst:60
+msgid "The same in Rust"
+msgstr "Lo stesso in Rust"
+
+#: ../../index.rst:68
+msgid "What's the problem"
+msgstr "Qual è il problema"
+
+#: ../../index.rst:70
+msgid "Reduced expressivity: I have to repeat type names just to disambiguate"
+msgstr "Espressività ridotta: devo ripetere i nomi dei tipi solo per disambiguare"
+
+#: ../../index.rst:71
+msgid "Names relate less directly to the problem domain"
+msgstr "I nomi sono più distanti dal dominio del problema"
+
+#: ../../index.rst:72
+msgid "Functions don't participate in generic code (C++ specific problem)"
+msgstr "Le funzioni non possono essere invocate in modo generico (problema "
+"specifico C++)"
+
+#: ../../index.rst:76
+msgid "A C++ version"
+msgstr "Una versione C++"
+
+#: ../../index.rst:84
+msgid "What is function overloading"
+msgstr "Cos'è l'overload di funzioni"
+
+#: ../../index.rst:86
+msgid ""
+"The possibility of *defining* two or more functions with the same name "
+"that take parameters that differ in type and/or number"
+msgstr "La possibilità di *definire* due o più funzioni con lo stesso nome che "
+"prendono parametri che differiscono per tipo e/o numero"
+
+#: ../../index.rst:88
+msgid ""
+"The possibility of *calling* a \"function\" with different type and/or "
+"number of arguments, regardless of how this is achieved"
+msgstr "La possibilità di *chiamare* una \"funzione\" con tipi e/o numero di "
+"parametri diversi, indipendentemente da come ciò è ottenuto"
+
+#: ../../index.rst:93
+msgid "**Calling is what matters if defining is not too complicated**"
+msgstr "**Chiamare è la cosa importante se definire non è troppo complicato**"
+
+#: ../../index.rst:97
+msgid "Related constructs"
+msgstr "Costrutti collegati"
+
+#: ../../index.rst:99
+msgid "Generics or templates"
+msgstr "Generici o template"
+
+#: ../../index.rst:100
+msgid "Default arguments"
+msgstr "Argomenti di default"
+
+#: ../../index.rst:101
+msgid "Duck typing"
+msgstr "\"Duck typing\""
+
+#: ../../index.rst:102
+msgid "Inheritance (?)"
+msgstr "Ereditarietà (?)"
+
+#: ../../index.rst:106
+msgid "A C++ template example"
+msgstr "Un esempio con template C++"
+
+#: ../../index.rst:114
+msgid "A duck typing example in Python"
+msgstr "Un esempio di \"duck typing\" in Python"
+
+#: ../../index.rst:122
+msgid "A default arguments example in Python"
+msgstr "Un esempio in Python con argomenti di default"
+
+#: ../../index.rst:130
+msgid "Well..."
+msgstr "Bé..."
+
+#: ../../index.rst:132
+msgid "Overloading is better!"
+msgstr "L'overload è meglio!"
+
+#: ../../index.rst:134
+msgid "It is cleaner"
+msgstr "E' più pulito"
+
+#: ../../index.rst:135
+msgid "It respects the Open/Closed principle"
+msgstr "Rispetta il principio Aperto/Chiuso"
+
+#: ../../index.rst:136
+msgid "Type switches are frowned upon in languages that lack Rust-style enums"
+msgstr "Gli switch sui tipi sono malvisti nei linguaggi che non hanno gli enum di"
+" Rust"
+
+#: ../../index.rst:140
+msgid "What about Rust?"
+msgstr "E Rust?"
+
+#: ../../index.rst:142
+msgid "A limited form of overloading may be implemented via traits:"
+msgstr "Una forma limitata di overload può essere implementata coi trait:"
+
+#: ../../index.rst:144
+msgid "The number of parameters cannot vary"
+msgstr "Il numero di parametri non può variare"
+
+#: ../../index.rst:145
+msgid "Implementation is somewhat complicated"
+msgstr "L'implementazione è un po' più complicata"
+
+#: ../../index.rst:146
+msgid ""
+"There is a conceptual mismatch: traits provide an additional level of "
+"abstraction, overloading should not"
+msgstr "C'è una discrepanza concettuale: i trait forniscono un livello aggiuntivo"
+" di astrazione, l'overload non dovrebbe"
+
+#: ../../index.rst:149
+msgid "No default arguments"
+msgstr "Non supporta gli argomenti di default"
+
+#: ../../index.rst:150
+msgid "No duck typing: Rust discourages or prohibits casual completion"
+msgstr "Non supporta il \"duck typing\": Rust scoraggia o proibisce il "
+"completamento casuale"
+
+#: ../../index.rst:154
+msgid "Overloading example in Rust"
+msgstr "Esempio di overload in Rust"
+
+#: ../../index.rst:162
+msgid "Overloading example in Rust (cont.)"
+msgstr "Esempio di overload in Rust (cont.)"
+
+#: ../../index.rst:170
+msgid "Overloading has its problems too!"
+msgstr "Anche l'overload ha i suoi problemi!"
+
+#: ../../index.rst:172
+msgid "Suppose we want to implement a `Point` type that may be built:"
+msgstr "Supponiamo di voler implementare un tipo `Point` che possa essere "
+"costruito:"
+
+#: ../../index.rst:174
+msgid "From cartesian coordinates"
+msgstr "Da coordinate cartesiane"
+
+#: ../../index.rst:175
+msgid "From polar coordinates"
+msgstr "Da coordinate polari"
+
+#: ../../index.rst:179
+msgid "A (broken) C++ example"
+msgstr "Un esempio (errato) in C++"
+
+#: ../../index.rst:186
+msgid "Python's default arguments help"
+msgstr "Gli argomenti di default di Python sono di aiuto"
+
+#: ../../index.rst:194
+msgid "Rust to the rescue"
+msgstr "Rust viene in soccorso"
+
+#: ../../index.rst:196
+msgid "...or how I think overloaded functions should be implemented in Rust:"
+msgstr "...o come per me dovrebbero essere implementate le funzioni "
+"sovraccaricate in Rust:"
+
+#: ../../index.rst:200
+msgid ""
+"**A single function with a single enum parameter that lists all the "
+"argument combinations to be supported**"
+msgstr "**Un'unica funzione con un unico parametro enum che elenchi tutte le "
+"combinazioni di argomenti da supportare**"
+
+#: ../../index.rst:205
+msgid "The Point example in Rust"
+msgstr "L'esempio del tipo Point in Rust"
+
+#: ../../index.rst:213
+msgid "Extending the Point example in Rust"
+msgstr "Estendiamo l'esempio Point in Rust"
+
+#: ../../index.rst:221
+msgid "Extending the Point example in Rust (cont.)"
+msgstr "Estendiamo l'esempio Point in Rust (cont.)"
+
+#: ../../index.rst:229
+msgid "The original example in Rust"
+msgstr "L'esempio originale in Rust"
+
+#: ../../index.rst:237
+msgid "What is bad about it"
+msgstr "Cosa non va"
+
+#: ../../index.rst:239
+msgid "Calling the function is a little more verbose than true overloading"
+msgstr "Chiamare la funzione è un po' più prolisso dell'overload vero e proprio"
+
+#: ../../index.rst:240
+msgid ""
+"It breaks the Open/Closed principle: adding supported parameter "
+"combinations requires modification of existing code"
+msgstr "Viola il principio Aperto/Chiuso: aggiungere combinazioni di parametri "
+"richiede di modificare codice esistente"
+
+#: ../../index.rst:242
+msgid "The argument enum may be somewhat artificial"
+msgstr "L'enum degli argomenti può risultare un po' artificiale"
+
+#: ../../index.rst:246
+msgid "What is good about it"
+msgstr "Cosa c'è di buono"
+
+#: ../../index.rst:248
+msgid "Available alternatives are described in a single place"
+msgstr "Le alternative disponibili sono descritte in un unico posto"
+
+#: ../../index.rst:249
+msgid "Intention is explicitly stated by choosing the appropriate enumeration"
+msgstr "L'intenzione è espressa esplicitamente attraverso la scelta "
+"dell'enumerazione appropriata"
+
+#: ../../index.rst:250
+msgid "Rust ensures that all declared cases are covered"
+msgstr "Rust impone che tutti i casi dichiarati siano gestiti"
+
+#: ../../index.rst:254
+msgid "Wait, there's more to it"
+msgstr "C'è di più"
+
+#: ../../index.rst:256
+msgid "A fundamental part of static typing is setting bounds on parameters"
+msgstr "Un aspetto fondamentale della tipizzazione statica è l'imposizione di "
+"vincoli sui parametri"
+
+#: ../../index.rst:257
+msgid ""
+"Check are better made upfront so that the type system may forward "
+"constraints automatically"
+msgstr "E' meglio fare i controlli subito in modo che il type system inoltri i "
+"vincoli automaticamente"
+
+#: ../../index.rst:258
+msgid "The argument enum moves argument checking out of the function"
+msgstr "L'enum degli argomenti sposta il controllo dei parametri fuori dalla "
+"funzione"
+
+#: ../../index.rst:259
+msgid "This could be extended to further checks:"
+msgstr "Questo si potrebbe estendere ad altri controlli:"
+
+#: ../../index.rst:261
+msgid "Valid subranges"
+msgstr "Range di validità"
+
+#: ../../index.rst:262
+msgid "Combined constraints"
+msgstr "Vincoli combinati"
+
+#: ../../index.rst:264
+msgid ""
+"Unfortunately the lack of standard constructors makes the syntax less "
+"than ideal"
+msgstr "Purtroppo la mancanza di costruttori standard rende la sintassi non "
+"proprio ideale"
+
+#: ../../index.rst:268
+msgid "A last example"
+msgstr "Un ultimo esempio"
+
+#: ../../index.rst:276
+msgid "The end"
+msgstr "Fine"
+
+#: ../../index.rst:280
+msgid "**Q&A or pizza, that is the question!**"
+msgstr "**Domande o pizza, questo è il dilemma**"
+

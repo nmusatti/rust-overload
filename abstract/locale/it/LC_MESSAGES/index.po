@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Nicola Musatti
+# This file is distributed under the same license as the Function
+# Overloading in Rust - Abstract and Biography package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-07 00:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../index.rst:6
+msgid "Function Overloading in Rust - How I Learned to Live Happily Without it"
+msgstr "Overload di funzioni in Rust - Come ho imparato a vivere felicemente senza"
+
+#: ../../index.rst:12
+msgid "Nicola Musatti"
+msgstr ""
+
+#: ../../index.rst:14
+msgid "nicola.musatti@gmail.com"
+msgstr ""
+
+#: ../../index.rst:16
+msgid "@NMusatti"
+msgstr ""
+
+#: ../../index.rst:20
+msgid "Abstract"
+msgstr ""
+
+#: ../../index.rst:22
+msgid ""
+"Rust does not provide function overloading exactly as we are used to in "
+"languages such as Java or C++. We shall start by going into some detail "
+"on what overloading is, how it is used and how you might work around its "
+"absence in languages that do not have it. This will help us reason about "
+"which of Rust's features may be of help in achieving results similar to "
+"those allowed by straight function overloading in, say, C++, but in a "
+"more \"Rusty\" way. The idea is to discuss language fundamentals together"
+" rather than to present esotheric techniques."
+msgstr "Rust non fornisce un meccanismo equivalente all’overload di funzioni come lo conosciamo in C++ o in Java. Inizieremo analizzando cos’è l’overloading, come si usa e come si può ovviare alla sua assenza nei linguaggi che non lo implementano. Questo ci aiuterà a ragionare su"
+" quali funzionalità di Rust possono aiutarci ad ottenere risultati simili a quelli che si possono ottenere ad esempio in C++ con l’overload di funzioni, ma in modo più «Rustico». L’idea è discutere"
+" insieme su caratteristiche fondamentali del linguaggio piuttosto che presentare tecniche esoteriche."
+
+#: ../../index.rst:31
+msgid "Biography"
+msgstr "Biografia"
+
+#: ../../index.rst:33
+msgid ""
+"I started out professionally with C, moved on to C++, added a little "
+"Python and had to settle for Java. Never a pure programmer, throuhout my "
+"career I dealt with system administration, version control, software "
+"architecture, team leading. For a long time C++ was my favourite "
+"language, even though I've come to appreciate how convenient Python is "
+"for getting things done. A few years ago I finally gave up on C++ out of "
+"frustration for its ever increasing complexity. I discovered Rust around "
+"the same time and loved immediately the way it appeared to provide "
+"elegant solutions for many of C++ problem areas."
+msgstr "Ho iniziato a livello professionale col C, sono passato al C++, ho aggiunto un po' di Python e mi sono dovuto dedicare al Java. Non sono mai stato un programmatore puro, nel corso della mia carriera mi sono occupato di amministrazione di sistemi, controllo di versione, architetture software, coordinamento di team. Per molto tempo il C++ è stato il mio linguaggio preferito, anche se ho imparato ad apprezzare quanto sia comodo il Python per risolvere problemi concreti. Qualche"
+" anno fa ho abbandonato il C++ a causa del suo diventare sempre più complesso. Ho scoperto Rust più o meno nello stesso periodo e mi sono subito innamorato di come sembrava fornire soluzioni eleganti a molte delle aree problematiche del C++."
+
